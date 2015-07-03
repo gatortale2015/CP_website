@@ -1,0 +1,189 @@
+/*
+ Theme Name: Caleb's Pitch
+ Theme URI: URL for Caleb's Pitch
+ Author: Gator Tale
+ Description: Caleb's Pitch Website
+ Version: 0.1
+ License: Open
+ Text Domain: caleb's-pitch
+ */
+
+*{
+    color: #393f42;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+
+.site-title a {
+    font-size: 1.6 rem;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 600;
+}
+
+h1, h2 {
+    font-size: 26px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #213f99;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+
+
+
+
+/*--- Sub Menu ---*/
+.menu {
+    width: 100%;
+    text-align: right;
+    padding: 5px 0;
+    float: right;
+    
+}
+
+
+.menu li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.menu ul {
+    padding-bottom: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: #029240;
+    padding: 8px 8px 8px 8px; 
+}
+
+.menu a:hover {
+    color: #ffdd17;
+    padding: 8px 8px 8px 8px; 
+}
+
+.top-content {
+    float: right;
+}
+
+
+/*--- Header Content ---*/
+
+.mashsb-container {
+  float: right;
+}
+
+#search {
+    float: right;
+    margin: 20px auto;
+}
+
+#searchsubmit {
+    color: #029240;
+}
+
+/*--- Large Menu ---*/
+
+.large-menu {
+    width: 100%;
+    
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    
+}
+
+.large-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 8px 8px 8px;
+    font-size: 26px;
+}
+
+.large-menu li {
+    display: inline;
+    padding: 20px 105px;
+}
+
+#menu-large-menu ul {
+    float: none;
+}
+
+#menu-large-menu.menu {
+    padding: 30px 0;
+}
+
+#menu-item-25 {
+    background: #f26522;
+    float: none;
+}
+
+#menu-item-24, #menu-item-23 {
+    background: #029240;
+    float: none;
+}
+
+
+
+/*--- Index Page Content---*/
+
+.mission {
+    background: #213f99;
+    padding: 10px auto;
+    }
+
+.mission p, h2 {
+    color: #fff;
+}
+
+
+
+
+/* ----- Footer ---- */
+
+.menu-footer-menu-container {
+    width: 40%;
+    padding-top: 40px;
+}
+
+
+#menu-footer-menu.menu {
+    float: left;
+    text-align: left;
+    padding-top: 0;
+}
+
+#menu-footer-menu.menu p {
+    float: left;
+}
+
+#menu-footer-menu.menu li {
+    padding-left: 5px;
+}
+
+
+.copyright {
+    float: left;
+}
+
+.socialmedia-widget {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.textwidget a {         /* ----- social media icons ---- */
+    padding: 15px;
+}
+
+
+
+/* ----- Utitlity ---- */
+
+.clearfix {
+    clear: both;
+}
